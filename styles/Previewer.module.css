@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+.textarea:hover {
+    border-color: blue;
+  }
+  
+.textarea {
+    width: 99%;
+    min-height: 15rem;
+    margin-top: 2rem;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+.preview {
+    width: 100%;
+    color: white;
+    background-color: #282c34;
+    min-height: 15rem;
+    margin-top: 2rem;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+}
