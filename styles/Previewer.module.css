@@ -33,3 +33,31 @@
     align-items: center;
     padding-left: 1rem;
 }
+
+@media (max-width: 480px) {
+  .textarea {
+    width: 20rem;
+    min-height: 15rem;
+    margin-top: 2rem;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .preview {
+    width: 22rem;
+    color: white;
+    background-color: #282c34;
+    min-height: 15rem;
+    margin-top: 2rem;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+  }
+  .preview img {
+    height: auto;
+    width: 5rem;
+  }
+}
+  

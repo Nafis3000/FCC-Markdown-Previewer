@@ -3,7 +3,6 @@ import styles from '../styles/Previewer.module.css'
 import {marked} from 'marked'
 
 class Previewer extends React.Component {
- //create a constructor
     constructor(props) {
         super(props);
         this.state = {
